@@ -1,0 +1,23 @@
+{
+  "name": "pathfinding_visualizer",
+  "version": "1.0.0",
+  "description": "Visualization of the path finding algorithms by JayShah",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jayshah6699/Pathfinding-Visualizer.git"
+  },
+  "keywords": [
+    "Pathfinding-Visualizer"
+  ],
+  "author": "Jay Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jayshah6699/Pathfinding-Visualizer/issues"
+  },
+  "homepage": "https://github.com/Jayshah6699/Pathfinding-Visualizer#readme"
+}
