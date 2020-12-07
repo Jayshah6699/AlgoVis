@@ -1,4 +1,4 @@
-# Pathfinding-Visualizer
+# Pathfinding-Simulator
 This a fun project in which i have made a fun website based on html css and javascript.
 
 This website includes various algorithms like
