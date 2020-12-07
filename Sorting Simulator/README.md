@@ -1,8 +1,8 @@
-# Sorting-Visualizer
+# Sorting-Simulator
 
 This is a fun project ,basically an html,css,js website to visualize sorting algorithms.
 
-# Sorting-Visualizer-Understanding 
+# Sorting-Simulator-Understanding 
 
 This a fun project in which i have made a fun website based on html css and javascript.
 
