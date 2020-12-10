@@ -967,9 +967,9 @@ Board.prototype.changeStartNodeImages = function() {
   }
   if (unweighted.includes(this.currentAlgorithm)) {
     if (this.currentAlgorithm === "dfs") {
-      document.getElementById("algorithmDescriptor").innerHTML = `${name} is <i><b>unweighted</b></i> and <i><b>does not guarantee</b></i> the shortest path!`;
+      document.getElementById("algorithmDescriptor").innerHTML = `${name} is <i><b>unweighted O(n)</b></i> and <i><b>does not guarantee</b></i> the shortest path!`;
     } else {
-      document.getElementById("algorithmDescriptor").innerHTML = `${name} is <i><b>unweighted</b></i> and <i><b>guarantees</b></i> the shortest path!`;
+      document.getElementById("algorithmDescriptor").innerHTML = `${name} is <i><b>unweighted O(n)</b></i> and <i><b>guarantees</b></i> the shortest path!`;
     }
     document.getElementById("weightLegend").className = "strikethrough";
     for (let i = 0; i < 14; i++) {
@@ -979,7 +979,7 @@ Board.prototype.changeStartNodeImages = function() {
     }
   } else {
     if (this.currentAlgorithm === "greedy" || this.currentAlgorithm === "CLA") {
-      document.getElementById("algorithmDescriptor").innerHTML = `${name} is <i><b>weighted</b></i> and <i><b>does not guarantee</b></i> the shortest path!`;
+      document.getElementById("algorithmDescriptor").innerHTML = `${name} is <i><b>weighted O(b^m)</b></i> and <i><b>does not guarantee</b></i> the shortest path!`;
     }
     document.getElementById("weightLegend").className = "";
     for (let i = 0; i < 14; i++) {
@@ -990,7 +990,7 @@ Board.prototype.changeStartNodeImages = function() {
   }
   if (this.currentAlgorithm === "bidirectional") {
 
-    document.getElementById("algorithmDescriptor").innerHTML = `${name} is <i><b>weighted</b></i> and <i><b>does not guarantee</b></i> the shortest path!`;
+    document.getElementById("algorithmDescriptor").innerHTML = `${name} is <i><b>weighted O(b^d)</b></i> and <i><b>does not guarantee</b></i> the shortest path!`;
     document.getElementById("bombLegend").className = "strikethrough";
     document.getElementById("startButtonAddObject").className = "navbar-inverse navbar-nav disabledA";
   } else {
@@ -998,7 +998,7 @@ Board.prototype.changeStartNodeImages = function() {
     document.getElementById("startButtonAddObject").className = "navbar-inverse navbar-nav";
   }
   if (guaranteed.includes(this.currentAlgorithm)) {
-    document.getElementById("algorithmDescriptor").innerHTML = `${name} is <i><b>weighted</b></i> and <i><b>guarantees</b></i> the shortest path!`;
+    document.getElementById("algorithmDescriptor").innerHTML = `${name} is <i><b>weighted O(b^d)</b></i> and <i><b>guarantees</b></i> the shortest path!`;
   }
 };
 
