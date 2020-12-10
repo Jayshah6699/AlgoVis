@@ -1,5 +1,5 @@
 # Pathfinding-Simulator
-This a fun project in which i have made a fun website based on html css and javascript.
+This a fun project in which we have made a fun website based on html css and javascript.
 
 This website includes various algorithms like
 
@@ -23,7 +23,7 @@ This Website supports the following algorithms:
 
 Dijkstra's Algorithm (weighted): the father of pathfinding algorithms; guarantees the shortest path
 
-A Search* (weighted): arguably the best pathfinding algorithm; uses heuristics to guarantee the shortest path much faster than Dijkstra's Algorithm
+A* Search (weighted): arguably the best pathfinding algorithm; uses heuristics to guarantee the shortest path much faster than Dijkstra's Algorithm
 
 Greedy Best-first Search (weighted): a faster, more heuristic-heavy version of A*; does not guarantee the shortest path
 
